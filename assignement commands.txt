@@ -1,0 +1,23 @@
+1) use assignment // Creating assigment Database
+2) db.createCollection("users") // Creating coolection that a file
+
+3) db.users.insert({}) // Inserting single document
+4) db.users.insertMany([{}] // To insert Multiple Documents
+
+5) db.users.find({}) // to see all documents or u can see particular document with details
+
+6) db.users.findOne({}) // anOther method to find single document
+
+7) db.users.update({},{}) // To update mentioned field, it applies to all
+
+db.users.update({},{},1) // update only one which is in first 
+
+db.users.updateMany({}) // Upadate to many
+
+db.users.remove({}) // Removes all document which has mentioned field
+
+db.users.deleteOne({}) // deletes only one
+
+db.users.deleteMany({}) // Delete all which has mentioned field
+
+db.dropDatabase() // deletes the database
